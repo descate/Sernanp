@@ -22,7 +22,7 @@ def quitar_tildes(texto):
     return ''.join((c for c in unicodedata.normalize('NFD', texto) if unicodedata.category(c) != 'Mn'))
 ################################### Fin de Funciones ####################################
 
-# URL del archivo GeoJSON
+# URL del archivo GEOJSON
 url_geojson = 'https://sernanpperuconnect.smartconservationtools.org/server/noa/sharedlink/?uuid=709c3527-52fa-4546-ae5d-3de45825ae9f'
 
 try:
