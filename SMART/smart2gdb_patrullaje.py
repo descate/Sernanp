@@ -30,7 +30,7 @@ def convertir_a_entero(cadena):
     df = None
 
     try:
-        # Descargar el archivo GeoJSON desde la URL
+        # Descargar el archivo GEOJSON desde la URL
         response = requests.get(url_patrullaje)
         # Verificar si la solicitud fue exitosa (código 200)
         if response.status_code == 200:
