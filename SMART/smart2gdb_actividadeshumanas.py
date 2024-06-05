@@ -17,7 +17,7 @@ def convertir_a_entero(cadena):
         return 0
 ################################### Fin de Funciones ####################################
 
-# URL del archivo GeoJSON
+# URL del archivo GEOJSON
 url_geojson = 'https://sernanpperuconnect.smartconservationtools.org/server/noa/sharedlink/?uuid=957ff6fc-1aa9-482c-8602-93649165e822'
 
 try:
