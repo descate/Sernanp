@@ -16,7 +16,7 @@ def quitar_tildes(texto):
 url_geojson = 'https://sernanpperuconnect.smartconservationtools.org/server/noa/sharedlink/?uuid=0211882e-b4fb-4425-814e-c08bfdea2584'
 
 try:
-    # Descargar el archivo GeoJSON desde la URL
+    # Descargar el archivo GEOJSON desde la URL
     response = requests.get(url_geojson)
     
     # Verificar si la solicitud fue exitosa (codigo 200)
